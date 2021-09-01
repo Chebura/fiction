@@ -4,4 +4,4 @@ Authors:
 * Кальянов Дмитрий (Dmitry A. Kalianov, mrald@yandex.ru) [main]
 ## List of projects
 
-* После нас ([afterus](/afterus/README.md))
+* `HEAL: My Blood` ([heal](heal/README.md))
