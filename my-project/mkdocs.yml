@@ -1,0 +1,10 @@
+site_name: HEAL
+site_url: http://mrald.narod.ru
+nav:
+    - 'index.md'
+    - 'about.md'
+use_directory_urls: false
+theme:
+    name: mkdocs
+    nav_style: dark
+    locale: ru
