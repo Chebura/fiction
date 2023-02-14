@@ -1,10 +1,11 @@
 site_name: HEAL
-site_url: http://mrald.narod.ru
+# site_url: http://mrald.narod.ru
 nav:
     - 'index.md'
-    - 'about.md'
+    - 'about/about.md'
+    - 'merged.md'
 use_directory_urls: false
 theme:
-    name: mkdocs
+    name: readthedocs
     nav_style: dark
     locale: ru
