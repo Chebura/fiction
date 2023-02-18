@@ -2,8 +2,8 @@ site_name: HEAL
 # site_url: http://mrald.narod.ru
 nav:
     - 'index.md'
-    - 'about/about.md'
-    - 'merged.md'
+    - 'copyright.md'
+    - 'heal/001.000.TIM.BRC.md'
 use_directory_urls: false
 theme:
     name: readthedocs
