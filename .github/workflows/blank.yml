@@ -37,3 +37,13 @@ jobs:
           build_dir: ./my-project/site
           # Specify GITHUB_TOKEN in your repository.
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Sync FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: mrald.narod.ru
+          port: 21
+          protocol: ftp
+          username: omrald
+          password: 0TyND5RC4e
+          local-dir: ./site/my-project
