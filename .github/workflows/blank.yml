@@ -29,3 +29,11 @@ jobs:
         uses: Tiryoh/actions-mkdocs@v0.20.0
         with:
           configfile: my-project/mkdocs.yml
+          
+      - name: Push to GitHub Pages branch
+        uses: ftnext/action-push-ghpages@v1.0.0
+        with:
+          # Path to the directory where the static assets are located.
+          build_dir: ./my-project/site
+          # Specify GITHUB_TOKEN in your repository.
+          github_token: ${{ secrets.GITHUB_TOKEN }}
