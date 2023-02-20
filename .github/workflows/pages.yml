@@ -29,7 +29,7 @@ jobs:
         uses: ad-m/github-push-action@v0.6.0
         with:
           # Token for the repo. Can be passed in using $\{{ secrets.GITHUB_TOKEN }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GIT_ACTION_PUSH }}
           repository: Chebura/Chebura.github.io
           # Destination branch to push changes
           branch: master
