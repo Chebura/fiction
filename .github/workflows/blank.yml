@@ -33,3 +33,13 @@ jobs:
           CONFIG_FILE: my-project/mkdocs.yml
           EXTRA_PACKAGES: build-base
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Github Push
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          # Token for the repo. Can be passed in using $\{{ secrets.GITHUB_TOKEN }}
+          github_token: ${GITHUB_REPOSITORY}
+          repository: Chebura.github.io
+          # Destination branch to push changes
+          branch: master
+          # Determines if force push is used
