@@ -24,9 +24,11 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+      
+      - name: Setup
+        working-directory: ./my-project
 
       - name: Tangy Mkdocs Build Action
-        working-directory: ./my-project
         # You may pin to the exact commit or the version.
         # uses: Tangerine-Community/tangy-mkdocs-build-action@64a7dac133c9d332b2bf6a96ba25592361eafb72
         uses: Tangerine-Community/tangy-mkdocs-build-action@v1
