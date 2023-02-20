@@ -25,13 +25,5 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
         
-      - name: Deploy MkDocs
-        # You may pin to the exact commit or the version.
-        # uses: mhausenblas/mkdocs-deploy-gh-pages@d77dd03172e96abbcdb081d8c948224762033653
-        uses: mhausenblas/mkdocs-deploy-gh-pages@1.26
-        env:
-          CONFIG_FILE: my-project/mkdocs.yml
-          EXTRA_PACKAGES: build-base
-          REPO_KEY: ${{ secrets.GIT_ACTION_PUSH }}
-          USERNAME: github-actions[bot]
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build MkDocs
+        uses: moonpathbg/mkdocs_builder@latest
