@@ -32,4 +32,5 @@ jobs:
         env:
           CONFIG_FILE: my-project/mkdocs.yml
           EXTRA_PACKAGES: build-base
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_KEY: ${{ secrets.GIT_ACTION_PUSH }}
+          USERNAME: github-actions[bot]
