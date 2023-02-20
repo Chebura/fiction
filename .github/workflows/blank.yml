@@ -12,10 +12,6 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
-defaults:
-  run:
-    working-directory: ./my-project
     
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -29,6 +25,10 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       
+      - name: Dir
+        working-directory: ./my-project
+        run: ls -R
+        
       - name: Deploy MkDocs
         # You may pin to the exact commit or the version.
         # uses: mhausenblas/mkdocs-deploy-gh-pages@d77dd03172e96abbcdb081d8c948224762033653
