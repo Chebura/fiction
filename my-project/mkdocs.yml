@@ -1,5 +1,5 @@
 site_name: HEAL
-site_url: http://mrald.narod.ru/my-project
+site_url: http://mrald.narod.ru/my-project/
 nav:
     - 'index.md'
     - 'copyright.md'
