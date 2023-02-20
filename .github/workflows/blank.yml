@@ -26,4 +26,6 @@ jobs:
       - uses: actions/checkout@v3
         
       - name: Build MkDocs
-        uses: moonpathbg/mkdocs_builder@latest
+        uses: Tiryoh/actions-mkdocs@v0.20.0
+        with:
+          configfile: my-project/mkdocs.yml
