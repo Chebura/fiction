@@ -30,14 +30,6 @@ jobs:
         with:
           configfile: my-project/mkdocs.yml
           
-      - name: Push to GitHub Pages branch
-        uses: ftnext/action-push-ghpages@v1.0.0
-        with:
-          # Path to the directory where the static assets are located.
-          build_dir: ./my-project/site
-          # Specify GITHUB_TOKEN in your repository.
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          
       - name: Sync FTP
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
@@ -46,5 +38,5 @@ jobs:
           protocol: ftp
           username: omrald
           password: 0TyND5RC4e
-          local-dir: ./my-project/site/
-          server-dir: ./my-project/
+          local-dir: my-project/site/
+          server-dir: my-project/
