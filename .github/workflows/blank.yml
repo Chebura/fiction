@@ -34,3 +34,4 @@ jobs:
           EXTRA_PACKAGES: build-base
           REPO_KEY: ${{ secrets.GIT_ACTION_PUSH }}
           USERNAME: github-actions[bot]
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
