@@ -39,7 +39,7 @@ jobs:
         with:
           # Token for the repo. Can be passed in using $\{{ secrets.GITHUB_TOKEN }}
           github_token: ${GITHUB_REPOSITORY}
-          repository: Chebura.github.io
+          repository: Chebura/Chebura.github.io
           # Destination branch to push changes
           branch: master
           # Determines if force push is used
