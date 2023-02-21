@@ -32,3 +32,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CONFIG_FILE: my-project/mkdocs.yml
+          CUSTOM_DOMAIN: chebura.github.io
