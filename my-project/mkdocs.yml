@@ -1,11 +1,7 @@
 site_name: HEAL
-site_url: http://mrald.narod.ru
+site_url: https://chebura.github.io/fiction
 nav:
     - 'index.md'
     - 'copyright.md'
     - 'heal/001_000_TIM_BRC.md'
 use_directory_urls: false
-theme:
-    name: readthedocs
-    nav_style: dark
-    locale: ru
