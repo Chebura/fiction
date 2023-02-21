@@ -46,7 +46,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Перейти на светлую сторону
-    - language: ru
+  language: ru
   font:
     text: Roboto
     code: Roboto Mono
