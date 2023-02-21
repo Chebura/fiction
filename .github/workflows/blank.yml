@@ -30,7 +30,6 @@ jobs:
         # uses: mhausenblas/mkdocs-deploy-gh-pages@d77dd03172e96abbcdb081d8c948224762033653
         uses: mhausenblas/mkdocs-deploy-gh-pages@1.26
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CONFIG_FILE: my-project/mkdocs.yml
           EXTRA_PACKAGES: build-base
-          REPO_KEY: ${{ secrets.GIT_ACTION_PUSH }}
-          USERNAME: github-actions[bot]
