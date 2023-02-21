@@ -30,13 +30,12 @@ jobs:
         with:
           configfile: my-project/mkdocs.yml
           
-      - name: Sync FTP
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0
-        with:
-          server: mrald.narod.ru
-          port: 21
-          protocol: ftp
-          username: omrald
-          password: 0TyND5RC4e
-          local-dir: my-project/site/
-          server-dir: /
+      - name: Deploy MkDocs
+        # You may pin to the exact commit or the version.
+        # uses: mhausenblas/mkdocs-deploy-gh-pages@d77dd03172e96abbcdb081d8c948224762033653
+        uses: mhausenblas/mkdocs-deploy-gh-pages@1.26
+        env:
+          CONFIG_FILE: my-project/mkdocs.yml
+          EXTRA_PACKAGES: build-base
+          REPO_KEY: ${{ secrets.GIT_ACTION_PUSH }}
+          USERNAME: github-actions[bot]
