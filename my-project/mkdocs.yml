@@ -34,17 +34,18 @@ theme:
     # - toc.integrate
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: blue gray
+      accent: blue gray
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: Перейти на тёмную сторону
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: blue gray
+      accent: blue gray
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Перейти на светлую сторону
+    - lang: ru
   font:
     text: Roboto
     code: Roboto Mono
