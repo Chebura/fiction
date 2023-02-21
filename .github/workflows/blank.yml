@@ -39,4 +39,4 @@ jobs:
           username: omrald
           password: 0TyND5RC4e
           local-dir: my-project/site/
-          server-dir: my-project/
+          server-dir: /
