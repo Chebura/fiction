@@ -20,4 +20,4 @@ _Кранце приехал к Сальвиа в Университет. Они
 Markdown [^footnote] 
 [^footnote]: this is footnote
 
-<!--  test --/>
+<!--  test -->
