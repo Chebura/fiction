@@ -9,6 +9,8 @@ use_directory_urls: false
 
 theme:
   name: material
+  markdown-extensions:
+    - footnotes
   features:
     # - announce.dismiss
     - content.action.edit
