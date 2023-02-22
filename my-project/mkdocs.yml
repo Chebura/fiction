@@ -3,8 +3,8 @@ site_url: https://chebura.github.io/fiction
 nav:
     - 'index.md'
     - 'copyright.md'
-    - HEAL
-      - 001_000_TIM_BRC
+    HEAL:
+      001_000_TIM_BRC:
         - 001_000_TIM_BRC_000_000: 'heal/001_000_TIM_BRC/001_000_TIM_BRC_000_000.md' 
         - 001_000_TIM_BRC_001_000: 'heal/001_000_TIM_BRC/001_000_TIM_BRC_001_000.md'
 use_directory_urls: false
