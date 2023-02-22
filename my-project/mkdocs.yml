@@ -1,9 +1,10 @@
-site_name: HEAL
+site_name: Codename H.E.A.L.
 site_url: https://chebura.github.io/fiction
 nav:
     - 'index.md'
     - 'copyright.md'
-    - 'heal/001_000_TIM_BRC.md'
+    - 'heal/001_000_TIM_BRC/001_000_TIM_BRC_000_000.md'
+    - 'heal/001_000_TIM_BRC/001_000_TIM_BRC_001_000.md'
 use_directory_urls: false
 
 theme:
