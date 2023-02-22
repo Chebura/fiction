@@ -34,7 +34,6 @@ theme:
     - search.suggest
     #- toc.follow
     - toc.integrate
-    - footnotes
   palette:
     - scheme: default
       primary: blue gray
@@ -64,3 +63,6 @@ plugins:
         - ru
   - minify:
       minify_html: true
+
+markdown-extensions:
+  - footnotes
