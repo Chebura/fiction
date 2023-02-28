@@ -63,6 +63,10 @@ plugins:
         - ru
   - minify:
       minify_html: true
+  - git-revision-date-localized
+      type: timeago
+      locale: ru
+      enabled: true
 
 
 markdown_extensions:
