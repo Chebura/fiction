@@ -3,9 +3,7 @@ site_url: https://chebura.github.io/fiction
 nav:
     - Home: 'index.md'
     - Copy: 'copyright.md'
-    - Parent:
-        - 'heal/TIM_BRC.md'
-        - 'TIM_BRC_100': 'heal/TIM_BRC_100.md'
+    - 'heal/TIM_BRC_all.md'
 
 use_directory_urls: false
 
