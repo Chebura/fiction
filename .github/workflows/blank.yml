@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@v3
       
       - name: Merge TIM_BRC
-        run: cat my-project/docs/heal/TIM_BRC_*.md > my-project/docs/heal/TIM_BRC_all.md
+        run: cat my-project/docs/heal/TIM_BRC_*.md > my-project/docs/heal/all_TIM_BRC.md
 
       - name: Deploy MkDocs
         # You may pin to the exact commit or the version.
