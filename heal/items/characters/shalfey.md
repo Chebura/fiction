@@ -1,2 +1,3 @@
-Ajnabi (pushtu) - незнакомец
+Ajnabi (pashto) - чужак
 اجنبی
+Аджнаби
