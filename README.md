@@ -1,10 +1,6 @@
-# Fiction
+# Chebura/Fiction repository
 
-Authors: 
-* Кальянов Дмитрий (Dmitry A. Kalianov, mrald@yandex.ru) [main]
-## List of projects
-
-* `HEAL: My Blood` ([heal](heal/README.md))
+[License agreenment](./license.txt)
 
 pip install mkdocs[i18n]
 mkdocs build
