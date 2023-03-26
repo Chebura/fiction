@@ -1,8 +1,8 @@
 site_name: Codename H.E.A.L.
 site_url: https://chebura.github.io/fiction
 nav:
-    - Home: 'index.md'
-    - Copy: 'copyright.md'
+    - 'О проекте': 'index.md'
+    - 'Авторские права': 'copyright.md'
     - 'heal/all_TIM_BRC.md'
 
 use_directory_urls: false
