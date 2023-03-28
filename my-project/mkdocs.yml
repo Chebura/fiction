@@ -1,5 +1,6 @@
 site_name: Codename H.E.A.L.
 site_url: https://chebura.github.io/fiction
+repo_url: https://github.com/chebura/fiction
 nav:
     - 'О проекте': 'index.md'
     - 'Авторские права': 'copyright.md'
@@ -54,6 +55,8 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
+    repo: fontawesome/brands/git-alt
+    view: material/eye
 
 plugins:
   - search:
