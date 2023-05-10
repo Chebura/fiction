@@ -11,3 +11,5 @@
 <img src="./img/moran.png" alt="Моран (TIM_BRC) (нейросеть Kandinsky 2.1)" style="height: 300px;"/>
 
 ^Моран (TIM_BRC), нейросеть Kandinsky 2.1^
+
+Характеристики Морана в разработке.
