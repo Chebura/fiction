@@ -68,3 +68,7 @@ ENV/
 
 # MkDocs documentation
 my-project/site/
+
+# VisualStudio
+
+.vs/
