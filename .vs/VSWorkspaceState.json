@@ -1,8 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\heal",
-    "\\heal\\documents",
     "\\heal\\documents\\Maroc",
     "\\heal\\items",
     "\\heal\\items\\chapters",
@@ -11,6 +9,6 @@
     "\\my-project\\docs",
     "\\my-project\\docs\\heal"
   ],
-  "SelectedNode": "\\my-project\\docs\\heal\\TIM_BRC_001.md",
+  "SelectedNode": "\\my-project",
   "PreviewInSolutionExplorer": false
 }
