@@ -1,14 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\heal\\documents\\Maroc",
+    "\\heal",
+    "\\heal\\documents",
     "\\heal\\items",
     "\\heal\\items\\chapters",
-    "\\heal\\pilot",
+    "\\heal\\items\\characters",
+    "\\heal\\items\\characters\\img",
     "\\my-project",
     "\\my-project\\docs",
     "\\my-project\\docs\\heal"
   ],
-  "SelectedNode": "\\my-project",
+  "SelectedNode": "\\heal\\items\\chapters\\TIM_OCN_100.md",
   "PreviewInSolutionExplorer": false
 }
