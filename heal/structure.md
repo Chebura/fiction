@@ -21,7 +21,7 @@
 
 Главы:
 * [TIM_BRC_001 ("В Барселону!")](../my-project/docs/heal/TIM_BRC_001.md)
-* [TIM_BRC_100 ("Беги!")](../my-project/docs/heal/TIM_BRC_100.md)
+* [TIM_BRC_100 ("Время подснежников")](../my-project/docs/heal/TIM_BRC_100.md)
 
 # TIM_OCN
 
