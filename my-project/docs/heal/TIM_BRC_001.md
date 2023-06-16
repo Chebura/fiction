@@ -17,8 +17,4 @@
 имеющий гражданства Евросоюза - Тим._
 
 
-
-Markdown [^footnote] 
-[^footnote]: this is footnote
-
 <!--  test -->
