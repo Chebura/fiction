@@ -2,14 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\heal",
-    "\\heal\\documents",
     "\\heal\\items",
     "\\heal\\items\\chapters",
+    "\\heal\\items\\chapters\\drafts",
     "\\heal\\items\\characters",
-    "\\heal\\items\\characters\\img",
     "\\my-project",
     "\\my-project\\docs",
     "\\my-project\\docs\\heal"
   ],
+  "SelectedNode": "\\heal\\items\\characters\\jayn.md",
   "PreviewInSolutionExplorer": false
 }
