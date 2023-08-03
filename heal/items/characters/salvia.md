@@ -1,7 +1,7 @@
 # Alejandro Salvia
 
 Алехандро Сальвиа - профессор Каталонского Политехнического университета, руководитель группы разработки искусственного интеллекта
-KEMLg (Knowledge Engineer Machine Learning group, настоящий сайт группы https://kemlg.upc.edu/en).
+[KEMLG](../../fiction-docs/upc-kemlg.md).
 
 <img src="./img/salvia.png" alt="Алехандро Сальвиа (TIM_BRC) (нейросеть Kandinsky 2.1)" style="height: 300px;"/>
 
