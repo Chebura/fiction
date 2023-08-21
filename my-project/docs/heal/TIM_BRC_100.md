@@ -1,4 +1,6 @@
-## TIM_BRC_100: Глава 100. Марокко.
+# TIM_BRC_100
+
+**Глава 100. Жара в Касабланке**
 
 <img src="./Images/TIM_BRC_100_0.jpg" alt="Марокко." style="height: 500px;"/>
 
