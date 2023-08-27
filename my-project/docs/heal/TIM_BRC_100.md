@@ -400,4 +400,4 @@
 [^doe]: DOE: англ. United States Department of Energy, Министерство энергетики США.  
 [^darpa]: DARPA: англ. Defense Advanced Research Projects Agency, Управление перспективных исследовательских проектов Министерства обороны США.
 [^dtra]: DTRA: англ. Defense Thread Reduction Agency, Управление по сокращению военной угрозы Министерства обороны США.
-[^тишка]: Тишка (жарг.) - T-Shirt, футболка.
+[^тишка]: Тишка (сленг) - от T-Shirt, футболка.
