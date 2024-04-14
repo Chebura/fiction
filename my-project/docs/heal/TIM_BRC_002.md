@@ -2,7 +2,7 @@
 
 **Глава 2. Mare Nostrum**
 
-<img src="./Images/TIM_BRC_002.png" alt="Nives Maria Garcia" style="height: 500px;"/>
+<img src="./Images/TIM_BRC_002.png" alt="Nives Maria Garcia" style="width: 500px;"/>
 
 *\- Мы в UPC \-Суперкомпьютер \- IDEAI \- Профессор Сальвиа \- Знакомство с Ньевес \- Да, я - выскочка!*
 

@@ -2,7 +2,7 @@
 
 **Глава 1. Hola, Barcelona!**
 
-<img src="./Images/TIM_BRC_001_0.jpg" alt="Bari Gotic" style="height: 500px;"/>
+<img src="./Images/TIM_BRC_001_0.png" alt="Bari Gotic" style="width: 700px"/>
 
 *\- Очень коротко о себе и Сэме \- Привет, Барселона! \- Налаживаем свой быт.*
 
