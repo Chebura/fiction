@@ -400,3 +400,5 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
 
+/.vs/fiction/v17/.wsuo
+/.vs/slnx.sqlite
